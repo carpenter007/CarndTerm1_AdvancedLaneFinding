@@ -140,8 +140,8 @@ result = cv2.addWeighted(undistimg, 1, newwarp, 0.3, 0)
 
 ---
 
-[image7]: ./output_images/reasons_for_invalidating_frames.jpg "Printed reasons for invalidating frames"
-[video2]: ./output_video/challenge.mp4 "output for challange video"
+[image8]: ./output_images/reasons_for_invalidating_frames.jpg "Printed reasons for invalidating frames"
+[video2]: ./output_video/challenge_video.mp4 "output for challenge video"
 
 ### Pipeline (video) 
 
@@ -158,7 +158,7 @@ Further a sanity check is done by comparing both lines (Left and Right):
 - Checking that they are separated by approximately the right distance horizontally
 
 The following picture shows a debug print while creating a output video. There is the reason printed for each frame which hasn't been validated. Each frame number which has an extra output is sorted out.
-![alt text][image7]
+![alt text][image8]
 
 The following video shows the output of the challenge video.
 ![alt text][video2]
